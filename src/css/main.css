@@ -1,0 +1,323 @@
+@import url(../fonts/Citrica/font.css);
+@import url(../fonts/Avante/font.css);
+* button {
+  font-family: Avante; }
+
+* .title {
+  font-family: Citrica; }
+
+html body {
+  width: 100%;
+  height: auto;
+  margin: 0; }
+  html body header nav {
+    background: #FDDDA4;
+    height: 60px; }
+    html body header nav .nav_tab .center-x {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+      html body header nav .nav_tab .center-x li {
+        margin-left: 40px; }
+        html body header nav .nav_tab .center-x li a {
+          font-family: Avante;
+          font-size: 1.2rem;
+          font-weight: 620;
+          color: #F68E4E !important; }
+          html body header nav .nav_tab .center-x li a::after {
+            content: "";
+            position: relative;
+            top: 2px;
+            right: 2px; }
+    html body header nav .logo {
+      position: relative;
+      left: 15%; }
+      html body header nav .logo img {
+        width: 50px; }
+  html body .main .centerTop {
+    background: url("../img/home_img.jpg");
+    width: 100%;
+    height: 757px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+    html body .main .centerTop .container .logo_main {
+      position: relative;
+      bottom: 10px;
+      margin-top: 110px;
+      width: 170px; }
+    html body .main .centerTop .container h2 {
+      position: relative;
+      color: #F68E4E;
+      font-family: Citrica;
+      font-weight: 600;
+      font-size: 3.6rem; }
+    html body .main .centerTop .container button {
+      background: #F68E4E !important;
+      border: none;
+      color: white;
+      position: relativex;
+      top: 20px;
+      width: 220px;
+      font-size: 1.4rem;
+      transition: box-shadow 2s; }
+      html body .main .centerTop .container button:hover {
+        box-shadow: 0 0 35px #F68E4E; }
+  html body .blockSecond {
+    /* tut slider*/ }
+    html body .blockSecond .container .row .centerBlock .title {
+      color: #F1843E;
+      padding-top: 100px;
+      margin-bottom: 20px;
+      font-size: 3.5rem; }
+    html body .blockSecond .container .row .centerBlock p {
+      font-size: 1.3rem;
+      font-weight: 400;
+      padding-bottom: 20px;
+      font-family: Avante; }
+    html body .blockSecond .container .row .centerBlock .ic_green, html body .blockSecond .container .row .centerBlock .ic_red, html body .blockSecond .container .row .centerBlock .ic_orange {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #B7C076;
+      position: relative;
+      left: 50%;
+      bottom: 15px;
+      transform: translateX(-50%); }
+    html body .blockSecond .container .row .centerBlock .ic_red {
+      background: #CC3335; }
+    html body .blockSecond .container .row .centerBlock .ic_orange {
+      background: #FCA55E; }
+    html body .blockSecond .container .row .centerBlock hr {
+      height: 10px; }
+    html body .blockSecond .stages {
+      position: relative;
+      bottom: 20px; }
+      html body .blockSecond .stages .container .row {
+        background: white; }
+        html body .blockSecond .stages .container .row .th img {
+          width: 300px; }
+        html body .blockSecond .stages .container .row .th p {
+          font-family: Avante;
+          font-size: 1.6rem;
+          margin-top: -25px; }
+        html body .blockSecond .stages .container .row .th:nth-child(1) {
+          color: #fa9224; }
+    html body .blockSecond .juries .container .row .head .title {
+      color: #aa8089;
+      padding: 20px; }
+    html body .blockSecond .juries .container .row .head .descJ {
+      font-family: Avante;
+      font-size: 1.5rem;
+      font-weight: 340;
+      color: gray;
+      line-height: 1.2; }
+  html body .sliderJuries {
+    width: 100%;
+    padding: 70px 0;
+    background: white; }
+    html body .sliderJuries .container .row .owl-carousel .col .header img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px; }
+    html body .sliderJuries .container .row .owl-carousel .col .body {
+      text-align: center; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .skill {
+        font-size: 1.5rem;
+        font-family: Citrica; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .i1 {
+        color: #E59175; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .i2 {
+        color: #EE8846; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .i3 {
+        color: #BE4446; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .i4 {
+        color: #A3A969; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .i5 {
+        color: #E78C71; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .name, html body .sliderJuries .container .row .owl-carousel .col .body .department {
+        position: relative;
+        bottom: 5px;
+        font-family: Avante; }
+      html body .sliderJuries .container .row .owl-carousel .col .body .department {
+        font-size: 0.8rem; }
+  html body .third {
+    padding-top: 100px;
+    background: white;
+    width: 100%; }
+    html body .third .container .row .top_layer .title {
+      padding-bottom: 35px;
+      font-size: 3.5rem;
+      color: #CB3131; }
+    html body .third .container .row .top_layer .desc {
+      font-family: Avante;
+      position: relative;
+      bottom: 15px;
+      font-size: 1.5rem;
+      color: gray; }
+    html body .third .container .row .artCard {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      height: auto; }
+      html body .third .container .row .artCard img {
+        border-radius: 20px;
+        width: 550px;
+        height: 650px;
+        padding-bottom: 15px; }
+      html body .third .container .row .artCard .nameRoute {
+        font-size: 2.4rem;
+        color: gray;
+        font-weight: 380;
+        font-family: Citrica; }
+      html body .third .container .row .artCard .descRoute {
+        position: relative;
+        top: 5px;
+        font-family: Avante;
+        color: gray;
+        text-align: center;
+        font-size: 1.35rem; }
+      html body .third .container .row .artCard .regRoute {
+        border: none;
+        outline: none;
+        position: relative;
+        top: 20px;
+        border-radius: 12px;
+        background: #F38240;
+        width: 270px;
+        height: 50px;
+        color: white;
+        font-size: 1.7rem; }
+  html body .fourth {
+    width: 100%;
+    background: white;
+    padding-top: 150px; }
+    html body .fourth .layer .title {
+      font-size: 4rem;
+      font-weight: 350;
+      color: #A2A863;
+      padding-top: 0px;
+      padding-bottom: 30px; }
+    html body .fourth .layer .desc {
+      font-family: Avante;
+      color: gray;
+      font-size: 1.6rem; }
+    html body .fourth .slideBlock {
+      margin: 50px 0;
+      width: 100%;
+      height: 720px;
+      display: grid;
+      grip-gap: 10px;
+      grid-template-columns: auto auto auto;
+      padding-bottom: 150px; }
+      html body .fourth .slideBlock .column {
+        display: grid;
+        grid-column-gap: 3px; }
+        html body .fourth .slideBlock .column img {
+          margin-top: 10px;
+          vertical-align: middle;
+          width: 98%;
+          height: 350px;
+          object-fit: cover; }
+      html body .fourth .slideBlock .out {
+        height: 98.7%; }
+        html body .fourth .slideBlock .out img {
+          height: 100%;
+          grid-row-start: 1;
+          grid-row-end: 6; }
+  html body .fifth {
+    width: 100%;
+    height: auto;
+    background-color: white; }
+    html body .fifth .container .row .layer {
+      padding-top: 100px;
+      padding-bottom: 50px; }
+      html body .fifth .container .row .layer .title {
+        margin-top: 100px;
+        font-size: 4rem;
+        color: #F38043;
+        padding-bottom: 20px;
+        font-weight: 340; }
+      html body .fifth .container .row .layer .desc {
+        font-family: Avante;
+        color: gray;
+        font-size: 1.6rem; }
+    html body .fifth .container .row .form_content {
+      padding-bottom: 150px; }
+      html body .fifth .container .row .form_content form {
+        width: 100%; }
+        html body .fifth .container .row .form_content form input, html body .fifth .container .row .form_content form select {
+          outline: none;
+          width: 100%;
+          height: 40px;
+          margin-top: 20px;
+          padding-left: 15px;
+          border-radius: 15px;
+          border: none;
+          background: #EAEAEA;
+          color: gray; }
+          html body .fifth .container .row .form_content form input::placeholder, html body .fifth .container .row .form_content form select::placeholder {
+            color: gray;
+            font-weight: 100;
+            letter-spacing: 1.2px; }
+        html body .fifth .container .row .form_content form select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none; }
+        html body .fifth .container .row .form_content form .selc:after {
+          content: ">";
+          transform: rotate(90deg);
+          font-family: Citrica;
+          color: gray;
+          font-size: 2.5rem;
+          margin-top: -48px;
+          right: 50px;
+          position: absolute;
+          position-events: none;
+          z-index: 999; }
+        html body .fifth .container .row .form_content form .fileBlock {
+          justify-content: space-around;
+          padding: 20px 0 20px 0; }
+          html body .fifth .container .row .form_content form .fileBlock .file {
+            width: 350px; }
+            html body .fifth .container .row .form_content form .fileBlock .file .title {
+              font-size: 1.4rem;
+              color: gray; }
+            html body .fifth .container .row .form_content form .fileBlock .file .getFile {
+              width: 200px;
+              font-size: 1.4rem;
+              border: none;
+              background-color: #F38240;
+              color: white;
+              border-radius: 10px;
+              padding: 3px; }
+        html body .fifth .container .row .form_content form .send {
+          margin-top: 50px;
+          background: #CA3533;
+          color: white;
+          width: 320px;
+          border: none;
+          padding: 7px;
+          border-radius: 12px;
+          font-size: 1.8rem; }
+  html body footer {
+    width: 100%;
+    height: auto;
+    background-color: #FFDFA2; }
+    html body footer .contenier .textBlock .top_block .title {
+      color: gray;
+      font-weight: 350;
+      padding: 30px 0 10px 0; }
+    html body footer .contenier .textBlock .top_block .address, html body footer .contenier .textBlock .top_block .phone {
+      font-family: Avante;
+      display: block;
+      font-size: 1.4rem;
+      color: gray; }
+    html body footer .contenier .iconBlock {
+      justify-content: center;
+      padding: 10px 0; }
+      html body footer .contenier .iconBlock .icon {
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 20px; }

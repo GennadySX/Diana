@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '6810';
+  src: url('6810.eot');
+  src: url('6810.eot?#iefix') format('embedded-opentype'),
+       url('6810.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avante';
+  src: url('AAvanteLtLight.svg#AAvanteLtLight') format('svg'),
+       url('AAvanteLtLight.ttf') format('truetype'),
+       url('AAvanteLtLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

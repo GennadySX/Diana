@@ -1,0 +1,18 @@
+@font-face {
+  font-family: '10436';
+  src: url('10436.eot');
+  src: url('10436.eot?#iefix') format('embedded-opentype'),
+       url('10436.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Citrica';
+  src: url('CitricaCyrillic.svg#CitricaCyrillic') format('svg'),
+       url('CitricaCyrillic.ttf') format('truetype'),
+       url('CitricaCyrillic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

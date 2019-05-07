@@ -1,0 +1,367 @@
+@import "../fonts/Citrica/font.css"
+@import "../fonts/Avante/font.css"
+
+* button
+	font-family: Avante
+* .title 
+	font-family: Citrica
+
+html
+	body
+		//background: linear-gradient(to right,  #ff4885, orange)
+		width: 100%
+		height: auto
+		//overflow-x: hidden
+		margin: 0
+		header
+			nav
+				background: #FDDDA4 
+				height: 60px
+				.nav_tab
+					.center-x
+						position: relative
+						left: 50%
+						transform: translateX(-50%)
+						li 	
+							margin-left: 40px
+							a 	
+								font-family: Avante
+								font-size: 1.2rem
+								font-weight: 620
+								color: #F68E4E !important //цвет 
+								&::after
+									content: ""
+									position: relative
+									top: 2px
+									right: 2px
+
+				.logo
+						position: relative
+						left: 15%
+						img
+							width: 50px
+						
+						//background: #F68E4E
+		.main 
+			.centerTop
+				background: url("../img/home_img.jpg")
+				width: 100%
+				height: 757px
+				background-size: 100% 100%
+				background-repeat: no-repeat
+				.container
+					.logo_main
+						position: relative
+						bottom: 10px
+						margin-top: 110px
+						width: 170px
+					h2
+						position: relative
+						color: #F68E4E
+						font-family: Citrica
+						font-weight: 600
+						font-size: 3.6rem 
+					button 
+						background: #F68E4E !important
+						border: none
+						color: white
+						position: relativex
+						top: 20px
+						width: 220px
+						font-size: 1.4rem
+						transition: box-shadow 2s
+						&:hover
+							box-shadow: 0 0 35px #F68E4E
+
+		.blockSecond
+			.container
+				.row
+					.centerBlock
+						.title
+							color: #F1843E
+							padding-top: 100px
+							margin-bottom: 20px
+							font-size: 3.5rem
+						p
+							font-size: 1.3rem
+							font-weight: 400
+							padding-bottom: 20px
+							font-family: Avante
+						.ic_green , .ic_red , .ic_orange
+							width: 30px
+							height: 30px
+							border-radius: 50%
+							background: #B7C076
+							position: relative
+							left: 50%
+							bottom: 15px
+							transform: translateX(-50%)
+						.ic_red
+							background: #CC3335
+						.ic_orange
+							background: #FCA55E
+						hr
+							height: 10px 
+			.stages
+				position: relative
+				bottom: 20px
+				.container
+					.row
+						background: white
+						.th
+							img
+								width: 300px
+							p
+								font-family: Avante
+								font-size: 1.6rem
+								margin-top: -25px
+							&:nth-child(1)
+								color: #fa9224 
+			.juries
+				.container
+					.row
+						.head
+							.title
+								color: #aa8089
+								padding: 20px
+							.descJ
+								font-family: Avante
+								font-size: 1.5rem
+								font-weight: 340
+								color: gray
+								line-height: 1.2
+			/* tut slider*/
+		.sliderJuries
+			width: 100%
+			padding: 70px 0
+			background: white
+			.container
+				.row
+					.owl-carousel
+						.col
+							.header
+								img
+									position: relative
+									left: 50%
+									transform: translateX(-50%)
+									width: 120px
+							.body
+								text-align: center
+								.skill
+									font-size: 1.5rem
+									font-family: Citrica
+								.i1
+									color: #E59175 
+								.i2
+									color: #EE8846
+								.i3
+									color: #BE4446
+								.i4
+									color: #A3A969
+								.i5
+									color: #E78C71
+								.name , .department
+									position: relative
+									bottom: 5px
+									font-family: Avante
+								.department
+									font-size: 0.8rem
+						
+		.third
+			padding-top: 100px
+			background: white
+			width: 100%
+			.container
+				.row
+					.top_layer
+						.title
+							padding-bottom: 35px
+							font-size: 3.5rem
+							color: #CB3131
+						.desc	
+							font-family: Avante
+							position: relative
+							bottom: 15px
+							font-size: 1.5rem
+							color: gray
+					.artCard
+						padding-top: 20px
+						padding-bottom: 50px
+						height: auto
+						img
+							border-radius: 20px
+							width: 550px
+							height: 650px
+							padding-bottom: 15px
+						.nameRoute
+							font-size: 2.4rem
+							color: gray
+							font-weight: 380
+							font-family: Citrica
+						.descRoute
+							position: relative
+							top: 5px
+							font-family: Avante
+							color: gray
+							text-align: center
+							font-size: 1.35rem
+						.regRoute
+							border: none
+							outline: none
+							position: relative
+							top: 20px
+							border-radius: 12px
+							background: #F38240
+							width: 270px
+							height: 50px
+							color: white
+							font-size: 1.7rem
+		.fourth
+			width: 100%
+			background: white
+			padding-top: 150px
+			.layer
+				.title
+					font-size: 4rem
+					font-weight: 350
+					color: #A2A863
+					padding-top: 0px
+					padding-bottom: 30px
+				.desc 
+					font-family: Avante
+					color: gray
+					font-size: 1.6rem
+			.slideBlock
+				margin: 50px 0
+				width: 100%
+				height: 720px
+				//background: lightgray
+				display: grid
+				grip-gap: 10px
+				grid-template-columns: auto auto auto
+				padding-bottom: 150px
+				.column 
+					display: grid
+					grid-column-gap: 3px
+					img
+						margin-top: 10px
+						vertical-align: middle
+						width: 98%
+						height: 350px
+						object-fit: cover
+				.out
+					height: 98.7%
+					img
+						height: 100%
+						grid-row-start: 1
+						grid-row-end: 6
+					
+
+				
+		.fifth
+			width: 100%
+			height: auto
+			background-color: white
+			.container
+				.row
+					.layer
+						padding-top: 100px
+						padding-bottom: 50px
+						.title
+							margin-top: 100px
+							font-size: 4rem
+							color: #F38043
+							padding-bottom: 20px
+							font-weight: 340
+						.desc
+							font-family: Avante
+							color: gray
+							font-size: 1.6rem
+					.form_content
+						padding-bottom: 150px
+						form
+							width: 100%
+							input , select
+								outline: none
+								width: 100%
+								height: 40px
+								margin-top: 20px
+								padding-left: 15px
+								border-radius: 15px
+								border: none
+								background: #EAEAEA
+								color: gray
+								&::placeholder
+									color: gray
+									font-weight: 100
+									letter-spacing: 1.2px
+							select
+								-webkit-appearance: none
+								-moz-appearance: none
+								appearance: none
+								//background-image: url("../img/ico/arrow.svg")
+							.selc	
+								&:after
+									content: ">"
+									transform: rotate(90deg)
+									font-family: Citrica
+									color: gray
+									font-size: 2.5rem
+									margin-top: -48px
+									right: 50px
+									position: absolute
+									position-events: none
+
+									z-index: 999
+							.fileBlock
+								justify-content: space-around
+								padding: 20px 0 20px 0 
+								.file
+									width: 350px
+									.title
+										font-size: 1.4rem
+										color: gray
+									.getFile
+										width: 200px
+										font-size: 1.4rem
+										border: none
+										background-color: #F38240
+										color: white
+										border-radius: 10px
+										padding: 3px
+							.send
+								margin-top: 50px
+								background: #CA3533
+								color: white
+								width: 320px
+								border: none
+								padding: 7px
+								border-radius: 12px
+								font-size: 1.8rem
+		footer
+			width: 100%
+			height: auto
+			background-color: #FFDFA2
+			.contenier
+				.textBlock
+					.top_block
+						.title
+							color: gray
+							font-weight: 350
+							padding: 30px 0 10px 0
+						.address , .phone
+							font-family: Avante
+							display: block
+							font-size: 1.4rem 
+							color: gray
+				.iconBlock
+					justify-content: center
+					padding: 10px 0
+					.icon
+						width: 70px
+						height: 70px
+						background-color: white
+						border-radius: 10px
+						margin-left: 20px
+						
+
