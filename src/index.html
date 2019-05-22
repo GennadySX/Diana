@@ -416,7 +416,8 @@
                         <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
                      </div>
                  </div>
-         </div>
+                  </div>
+                
         </div>
         
        
@@ -610,12 +611,49 @@
     </script>
 
     <style>
-    .fourth .slick-prev:before, .slick-next:before {
-        color: black !important;
-    }
+    
     .slick-dots li button:before {
         font-size: 20px;
     }
+    .slick-prev::before, .slick-next::before {
+        content: none;
+        background: gray !important;
+    }
+    
+    .slick-prev:hover,
+.slick-prev:focus {
+    outline: none;
+    background-image: url('img/ico/prevActive.png');
+    background-repeat: no-repeat;
+}
+.slick-next:hover,
+.slick-next:focus
+{
+    outline: none;
+    background-image: url('img/ico/nextActive.png') ;
+    background-repeat: no-repeat;
+}
+.slick-next,
+.slick-prev {
+    width: 50px;
+    outline: none;
+    top: 53%;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.slick-prev {
+    background-image: url('img/ico/prevNoActive.png') ;
+   left: -65px;
+  
+}
+.slick-next
+{
+    background-image: url('img/ico/nextNoActive.png');
+    right: -65px;
+}
+
+
+
     </style>
 
 
