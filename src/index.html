@@ -33,7 +33,7 @@
                     <div class="dropdown-menu " aria-labeledby="olimp">
                         <a href="/stageFirst.html" class="dropdown-item">Положение <br>и регламент олимпиады</a>
                         <a href="/stageSecond.html" class="dropdown-item">Правила участия <br>и призы</a>
-                        <a href="/stageThird.html" class="dropdown-item">Часто задаваемые <br>вопросы</a>
+                        <a href="#ask" class="dropdown-item">Часто задаваемые <br>вопросы</a>
                         <a href="/stageThird.html" class="dropdown-item">Состав жюри</a>
                         
                     </div>                  
@@ -96,7 +96,7 @@
 
         <div class="stages">
             <div class="container"> 
-                <div class="row d-flex text-center">
+                <div class="row d-flex text-center" id="ask">
                     <div class="th col-md-4">
                         <img src="img/ico/sticky.png" alt="">
                       <a href="#" class="in1"> <p class="title">Положение <br> и регламент олимпиады</p></a> 
@@ -107,7 +107,7 @@
                     </div>
                     <div class="th col-md-4" data-toggle="modal" data-target=".partake_main">
                         <img src="img/ico/question.png" alt="" >
-                        <a href="#" class="in3"> <p class="title" >Часто задаваемые <br> вопросы</p></a>
+                        <a href="#" class="in3" > <p class="title" >Часто задаваемые <br> вопросы</p></a>
                     </div>
                 </div>
                 <div class="modal fade  partake_main" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -285,14 +285,14 @@
                                     выбери свой класс обучения</span>
                                 </div>
                                 <div class="body">
-                                   <form action="">
+                                   
                                        <div class="mainChoice">
                                             <button class="class1" data-link="/suitSS.html">6-7 класс</button>
                                             <button class="class2" data-link="/suitEN.html">8-9 класс</button>
                                             <button class="class3" data-link="/suitTE.html">10-11 класс</button>
                                        </div>
-                                       <button class="send_me" type="submit"> <a href="" target="_blank">Перейти к заданиям</a></button>
-                                   </form>
+                                       <button class="send_me stageSend" type="submit" > Перейти к заданиям</button>
+                                   
                             </div>
                         </div>
                       </div>
@@ -322,14 +322,14 @@
                                 выбери свой класс обучения</span>
                             </div>
                             <div class="body">
-                               <form action="">
+                              
                                    <div class="mainChoice">
                                         <button class="class1" data-link="/graphSS.html">6-7 класс</button>
                                         <button class="class2" data-link="/graphEN.html">8-9 класс</button>
                                         <button class="class3" data-link="/graphTE.html">10-11 класс</button>
                                    </div>
-                                   <button class="send_me" type="submit"> <a href="" target="_blank">Перейти к заданиям</a></button>
-                               </form>
+                                   <button class="send_me stageSend" type="submit" > Перейти к заданиям</button>
+                               
                         </div>
                     </div>
                   </div>
@@ -546,7 +546,7 @@
                 <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                             <button type="button" class="closeA" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
+                                    <span aria-hidden="true"><img src="img/ico/closeX.png" alt=""></span>
                             </button>
                         <div class="container">
                             <div class="row">
@@ -576,13 +576,14 @@
                 <div class="textBlock text-center ">
                     <div class="top_block" id="contacts" >
                         <h1 class="title">Контакты:</h1>
-                        <span class="address">Россия, город Казань, ул. Университетская 6 <br> Кабинет 415</span>
-                        <span class="phone">Контактный телефон: +7 843 231-41-97</span>
+                        <span class="address"><img src="img/ico/locGeo.png" alt=""> Россия, город Казань, ул. Университетская 6 <br> Кабинет 415</span>
+                        <span class="phone"><img src="img/ico/phone.png" alt=""> +7 843 231-41-97</span>
                      </div>
                  </div>
                  <div class="iconBlock col-md-12 d-flex">
-                    <div class="icon"></div>
-                    <div class="icon"></div>
+                    <a class="icon" href="https://instagram.com/DianaTikhonova" target="_blank">Instagram: <img src="img/ico/InstagramBottom.png" alt=""></a>
+                    <a class="icon" href="https://vk.com/DianaTikhonova" target="_blank">Вконтакте: <img src="img/ico/VkBottom.png" alt=""></a>
+                  
                    </div>                
                 </div>
           

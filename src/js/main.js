@@ -35,7 +35,9 @@ $(document).ready(function(){
         link = $(this).attr("data-link");
         console.log(link);
     });
-    $(".mainChoice").siblings('.send_me').click(function() {
+    $(".stageSend").click(function(e) {
+     e.preventDefault();
+        //alert(link);
         window.location.replace(link);
     });
 

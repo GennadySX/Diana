@@ -391,7 +391,7 @@ html body {
             html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body {
               padding-top: 10px;
               padding-bottom: 30px; }
-              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice button {
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice button {
                 background: #B9C072;
                 border: none;
                 outline: none;
@@ -402,17 +402,17 @@ html body {
                 font-weight: 590;
                 color: white;
                 border-radius: 10px; }
-                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice button:focus {
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice button:focus {
                   background: #87833C; }
-              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class2 {
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice .class2 {
                 background: #F38240; }
-                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class2:focus {
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice .class2:focus {
                   background: #D85922; }
-              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class3 {
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice .class3 {
                 background: #E98E79; }
-                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class3:focus {
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .mainChoice .class3:focus {
                   background: #E37159; }
-              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me {
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .send_me {
                 width: 190px;
                 height: 40px;
                 background: #CC3335;
@@ -422,9 +422,9 @@ html body {
                 border-radius: 10px;
                 margin-top: 15px;
                 outline: none; }
-                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me:focus {
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .send_me:focus {
                   background: #932D38; }
-                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me a {
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body .send_me a {
                   color: white; }
   html body .fourth {
     width: 100%;
@@ -649,6 +649,11 @@ html body {
           background: #CC3335;
           border: none;
           transition: background 1s, box-shadow 2s; }
+          html body footer .mark_q .modal-dialog .modal-content .closeA img {
+            width: 25px;
+            position: relative;
+            bottom: 3px;
+            left: 1px; }
           html body footer .mark_q .modal-dialog .modal-content .closeA span {
             color: white;
             font-size: 2.5rem;
@@ -705,19 +710,34 @@ html body {
               background: #D85922; }
     html body footer .contenier .textBlock .top_block .title {
       color: gray;
+      font-size: 3rem;
       font-weight: 350;
       padding: 30px 0 10px 0; }
     html body footer .contenier .textBlock .top_block .address, html body footer .contenier .textBlock .top_block .phone {
       font-family: Avante;
       display: block;
-      font-size: 1.4rem;
-      color: gray; }
+      font-size: 1.5rem;
+      color: gray;
+      font-weight: 599; }
+    html body footer .contenier .textBlock .top_block .address {
+      line-height: 1; }
+      html body footer .contenier .textBlock .top_block .address img {
+        position: relative;
+        bottom: 3px; }
+    html body footer .contenier .textBlock .top_block .phone {
+      padding-top: 14px; }
     html body footer .contenier .iconBlock {
       justify-content: center;
       padding: 10px 0; }
       html body footer .contenier .iconBlock .icon {
         color: gray;
+        text-decoration: none;
+        padding-top: 7px;
+        font-size: 1.5rem;
         border-radius: 10px;
-        margin-left: 20px; }
+        margin-left: 20px;
+        margin-bottom: 30px; }
         html body footer .contenier .iconBlock .icon img {
-          padding-left: 2px; }
+          padding-left: 2px;
+          position: relative;
+          bottom: 4px; }
