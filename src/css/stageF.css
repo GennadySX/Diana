@@ -1,0 +1,92 @@
+@import url(../fonts/Citrica/font.css);
+@import url(../fonts/Avante/font.css);
+html body .graphDesign-seven .container .row .layerF {
+  padding-bottom: 40px; }
+  html body .graphDesign-seven .container .row .layerF .title {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: #F17F40;
+    font-size: 3.5rem; }
+    html body .graphDesign-seven .container .row .layerF .title span {
+      font-family: Avante;
+      font-weight: bold; }
+  html body .graphDesign-seven .container .row .layerF .desc {
+    font-family: Avante;
+    font-size: 1.3rem;
+    color: gray; }
+
+html body .graphDesign-seven .container .row .blockNomination {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border: 7px solid #F7E1AF;
+  padding-top: 10px;
+  margin-top: 50px;
+  border-radius: 15px; }
+  html body .graphDesign-seven .container .row .blockNomination .head {
+    display: flex;
+    padding: 20px;
+    flex-wrap: no-wrap; }
+    html body .graphDesign-seven .container .row .blockNomination .head .top {
+      padding: 0 10px;
+      flex: 0 0 40%; }
+      html body .graphDesign-seven .container .row .blockNomination .head .top .title {
+        font-size: 2.3rem;
+        color: gray; }
+      html body .graphDesign-seven .container .row .blockNomination .head .top .desc {
+        flex: 0 0 20%;
+        font-family: Avante; }
+    html body .graphDesign-seven .container .row .blockNomination .head img {
+      position: relative;
+      left: 80px;
+      width: 50%; }
+  html body .graphDesign-seven .container .row .blockNomination .show-btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    background: #F2813F;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    transition: background 2s;
+    margin-bottom: 20px; }
+    html body .graphDesign-seven .container .row .blockNomination .show-btn:hover {
+      background: #F2812F; }
+  html body .graphDesign-seven .container .row .blockNomination .body {
+    padding: 15px;
+    text-align: center; }
+    html body .graphDesign-seven .container .row .blockNomination .body hr {
+      width: 60%;
+      border: 1px solid gray; }
+    html body .graphDesign-seven .container .row .blockNomination .body .title {
+      font-family: Avante; }
+    html body .graphDesign-seven .container .row .blockNomination .body .desc {
+      font-size: 1.2rem;
+      font-weight: 380; }
+    html body .graphDesign-seven .container .row .blockNomination .body .gallery {
+      padding-top: 15px; }
+      html body .graphDesign-seven .container .row .blockNomination .body .gallery img {
+        width: 32.5%; }
+    html body .graphDesign-seven .container .row .blockNomination .body .closeCollapse {
+      margin-top: 20px;
+      position: relative;
+      z-index: 99999;
+      border: none;
+      background: #F2813F;
+      outline: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.3rem;
+      width: 200px;
+      height: 40px;
+      outline: none;
+      border-radius: 5px;
+      transition: background 2s; }
+      html body .graphDesign-seven .container .row .blockNomination .body .closeCollapse:hover {
+        background: #F2812F; }

@@ -10,7 +10,8 @@
         <!-- Personal Files -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/slide.css">
-    
+    <link rel="stylesheet" href="/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="/libs/slick/slick.css">
     
    <title>ArtME</title>
 </head>
@@ -29,10 +30,12 @@
                         <a class="nav-link dropdown-toggle" href="#" id="olimp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Об олипиаде
                         </a>
-                    <div class="dropdown-menu" aria-labeledby="olimp">
-                        <a href="#" class="dropdown-item">Условия</a>
-                        <a href="#" class="dropdown-item">Состав</a>
-                        <a href="#" class="dropdown-item">Дата</a>
+                    <div class="dropdown-menu " aria-labeledby="olimp">
+                        <a href="/stageFirst.html" class="dropdown-item">Положение <br>и регламент олимпиады</a>
+                        <a href="/stageSecond.html" class="dropdown-item">Правила участия <br>и призы</a>
+                        <a href="/stageThird.html" class="dropdown-item">Часто задаваемые <br>вопросы</a>
+                        <a href="/stageThird.html" class="dropdown-item">Состав жюри</a>
+                        
                     </div>                  
                     </li>
                     <li class="nav-item headLink">
@@ -49,10 +52,10 @@
                     </li>
                 </ul>
                 <div class="nav_tab headSocial">
-                <ul class="navbar-nav">
-                    <li class="ic nav-item"><a href="https://instagram.com/?"><i class="fa fa-instagram"></i></a></li>
-                    <li class="ic nav-item"><a href="https://vk.com/?"><i class="fa fa-vk"></i></a></li>
-                </ul>
+                        <ul class="navbar-nav">
+                                <li class="ic nav-item"><a href="https://instagram.com/?"><img src="img/ico/instagram_topD.png" alt=""></i></a></li>
+                                <li class="ic nav-item"><a href="https://vk.com/?"><img src="img/ico/vktopD.png" alt=""></a></li>
+                            </ul>
             </div>
             </div>
             
@@ -65,15 +68,15 @@
                 <div class="row">  
                     <div class="centerBlock col-md-12 text-center">
                         <img src="img/logo.png" alt="" class="logo_main">
-                        <h2 >Артогефесть- <br> творческая олимпиада <br> для школников</h2>
-                        <button type="button" class="reg btn btn-warning ">Участвовать!</button>
+                        <h2 >Артогефест<span>-</span> <br> творческая олимпиада <br> для школьников</h2>
+                        <button type="button" class="reg btn btn-warning " ><a href="#stageId">Участвовать!</a></button>
                     </div>
                 </div>
              </div>
         </div>
     </section>
     <!-----tut nachnetsya 2-aya block-->
-    <section class="blockSecond" style="background: white">
+    <section class="blockSecond" >
         <div class="container"> 
             <div class="row ">  
                 <div class="col-md-1"></div>
@@ -81,7 +84,7 @@
                     <h1 class="title">Об олимпиаде</h1>
                     <p >Атрогефест - это олимпиада для школьников, <br> призванная повысить интерес учащихся к творческой деятельности <br> и способствующая раскрытию их художественного потециала</p>
                     <div class="ic_green "></div>
-                    <p>Олипиада проводится по двум направлениям: дизайе костюма <br> и графический дизайн и проходит в два этапа: заочный (онлайн этап) и очный</p>
+                    <p>Олипиада проводится по двум направлениям: дизайн костюма <br> и графический дизайн и проходит в два этапа: заочный (онлайн этап) и очный</p>
                     <div class="ic_red"></div>
                     <p>К участию приглашаются ученики 6-11 классов</p>
                     <div class="ic_orange"></div>
@@ -96,22 +99,89 @@
                 <div class="row d-flex text-center">
                     <div class="th col-md-4">
                         <img src="img/ico/sticky.png" alt="">
-                        <p class="title">Положение <br> и регламент олимпиады</p>
+                      <a href="#" class="in1"> <p class="title">Положение <br> и регламент олимпиады</p></a> 
                     </div>
                     <div class="th col-md-4">
                         <img src="img/ico/awward.png" alt="">
-                        <p class="title">Правила участия <br> и призы</p>
+                        <a href="#" class='in2'><p class="title">Правила участия <br> и призы</p></a>
                     </div>
-                    <div class="th col-md-4">
-                        <img src="img/ico/question.png" alt="">
-                        <p class="title">Часто задаваемые <br> вопросы</p>
+                    <div class="th col-md-4" data-toggle="modal" data-target=".partake_main">
+                        <img src="img/ico/question.png" alt="" >
+                        <a href="#" class="in3"> <p class="title" >Часто задаваемые <br> вопросы</p></a>
                     </div>
                 </div>
+                <div class="modal fade  partake_main" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg ">
+                      <div class="modal-content">
+                            <button type="button" class="closex" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><img src="img/ico/closeX.png" alt=""></span>
+                            </button>
+                        <div class="container">
+                            <div class="row">
+                                <div class="head text-center">
+                                    <h2 class="title ">Часто задаваемые вопросы</h2>
+                                    <p class="desc">В данном окне представлены часто задаваемые вопросы.</p>
+                                    <p class="desc">Можешь ознакомиться с ними</p>
+                                </div>
+                                <div class="body">
+                                    <div class="stages">
+                                        <h3 class="s_title i1"><span class="round a">.</span>Кто может участвовать в олимпиаде?</h3>
+                                        <p class="desc">К участию в творческой олимпиаде Артогефест приглашаются <br>
+                                                школьники 6-11 классов, живущие на территории РФ и стран СНГ
+                                        </p>
+                                    </div>
+                                    <div class="stages">
+                                        <h3 class="s_title i2"><span class="round s"></span>Как принять участие в олимпиаде?</h3>
+                                        <p class="desc">Чтобы принять участие в олимпиаде, необходимо перейти в раздел<br>
+                                        "Выбери направление" и: </p>
+                                        <ol class="desc_block">
+                                            <li class="block1">
+                                                <p>Выбрать интересующее тебя направление дизайна</p>
+                                            </li>
+                                            <li class="block2">
+                                                <p>После нажатия на выбранное направление дизайна появится окошко, <br>
+                                                    в котором тебе необходимо выбрать свой класс обучения и нажать кнопку "Перейти к заданиям"
+                                                </p>
+                                            </li>
+                                            <li class="block3">
+                                                <p>После этого перед тобой откроется страница с блоками заданий состоящая из трех
+                                                    номинация: "Рисунок", "Живопись", "Композиция". Необходмио выполнить задание из каждой
+                                                    номинации
+                                                </p>
+                                            </li>
+                                            <li class="block4">
+                                                <p>Выполнив все задания, тебе необходимо сфотографировать или отсканировать 
+                                                    готовые работы и загрузить их в форму
+                                                    "Отправить свои работы" в формате JPEG
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="stages">
+                                        <h3 class="s_title i3"><span class="round x"></span>Как я узнаю, что прошел во второй тур?</h3>
+                                        <p class="desc">Баллы за твои олимпиадные работаы придут на твою электронную почту. <br>
+                                            Или ты можешь посмотреть результаты в разделе "Итоги"
+                                        </p>
+                                    </div>
+                                    <div class="stages">
+                                        <h3 class="s_title i4"><span class="round c"></span>Что дает мне участие в олимпиаде?</h3>
+                                        <p class="desc">Участие в олимпиаде даст тебе опыт в творческой <br>
+                                            деятельности, позволить оценить свои <br> возможности и в будущем 
+                                            выбрать <br>подходящую тебе профессию
+                                        </p>
+                                        <img class="bottomHuman" src="img/objects/secondModalHuman.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
            </div>
         </div>
 
         <div class="juries">
-            <div class="container" style="background: white">
+            <div class="container" >
                 <div class="row  ">
                     <div class="head text-center col-md-12">
                     <h1 class="title">Состав жюри</h1>
@@ -128,7 +198,7 @@
                        <div class="owl-carousel owl-theme">
                         <div class="col">
                             <div class="header">
-                                <img src="img/judges/jfs.png" alt="">
+                                <img src="img/judges/y1.png" alt="">
                             </div>
                             <div class="body">
                                 <span class="skill i1">Дизайн костюма</span>
@@ -139,45 +209,45 @@
                         </div>
                         <div class="col">
                                 <div class="header">
-                                    <img src="img/judges/jfs.png" alt="">
+                                    <img src="img/judges/y2.png" alt="">
                                 </div>
                                 <div class="body">
                                     <span class="skill i2">Дизайн костюма</span>
-                                    <span class="name">Сафина <br> Людмила Александровна</span>
+                                    <span class="name">Тихбатуллина <br> Лейсан Марселевна</span>
                                     <div class="department">Кандидат педагогических наук</div>
                                     <div class="department">Доцент-Кафедра "Дизайна"</div>
                                 </div>
                             </div>
                             <div class="col">
                                     <div class="header">
-                                        <img src="img/judges/jfs.png" alt="">
+                                        <img src="img/judges/y3.png" alt="">
                                     </div>
                                     <div class="body">
                                         <span class="skill i3">Дизайн костюма</span>
-                                        <span class="name">Сафина <br> Людмила Александровна</span>
-                                        <div class="department">Кандидат педагогических наук</div>
-                                        <div class="department">Доцент-Кафедра "Дизайна"</div>
+                                        <span class="name">Хамматова <br> Венера Василевна</span>
+                                        <div class="department">Доктор технических наук</div>
+                                        <div class="department">Профессор и Заведуший Кафедры "Дизайна"</div>
                                     </div>
                                 </div>
                                 <div class="col">
                                         <div class="header">
-                                            <img src="img/judges/jfs.png" alt="">
+                                            <img src="img/judges/y4.png" alt="">
                                         </div>
                                         <div class="body">
                                             <span class="skill i4">Дизайн костюма</span>
-                                            <span class="name">Сафина <br> Людмила Александровна</span>
-                                            <div class="department">Кандидат педагогических наук</div>
+                                            <span class="name">Пискарев <br> Владимир Викторович</span>
+                                            <div class="department">Член-корреспондент РА Художеств</div>
                                             <div class="department">Доцент-Кафедра "Дизайна"</div>
                                         </div>
                                     </div>
                                     <div class="col">
                                             <div class="header">
-                                                <img src="img/judges/jfs.png" alt="">
+                                                <img src="img/judges/y5.png" alt="">
                                             </div>
                                             <div class="body">
                                                 <span class="skill i5">Дизайн костюма</span>
-                                                <span class="name">Сафина <br> Людмила Александровна</span>
-                                                <div class="department">Кандидат педагогических наук</div>
+                                                <span class="name">Камалова <br> Элида Разифовна</span>
+                                                <div class="department">Член-корреспондент РА Художеств</div>
                                                 <div class="department">Доцент-Кафедра "Дизайна"</div>
                                             </div>
                                         </div>
@@ -186,7 +256,7 @@
                 </div>
                 </div>
     </section>
-    <section class="third">
+    <section class="third" id='stageId'>
         <div class="container">
             <div class="row">
                 <div class="top_layer text-center col-md-12">
@@ -196,14 +266,76 @@
         <div class="artCard col-md-6 text-center">
             <img src="img/stages/fs.png" alt="">
             <span class="nameRoute text-center">Дизайн костюма</span>
-            <p class="descRoute">- одно из направлений дизайн-деятельности, <br> целью которого является проектирование <br> одежды как одного из элементов предметной среды.</p>
-            <button class="regRoute">Участвовать!</button>
-        </div>
+            <p class="descRoute">— одно из направлений дизайн-деятельности, <br> целью которого является проектирование <br> одежды как одного из элементов предметной среды.</p>
+            <button class="regRoute suiteButton" data-toggle="modal" data-target=".suitChoise">Участвовать!</button>
+            <div class="modal fade  choice_stage suitChoise" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg ">
+                      <div class="modal-content ">
+                            <button type="button" class="closex" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">
+                                        <img class="closeX" src="img/ico/closea.png" alt="">
+                                    </span>
+                            </button>
+                            
+                        <div class="container">
+                            <div class="row">
+                                <div class="head text-center">
+                                    <h2 class="title">Выбери свой класс </h2>
+                                    <span class="desc">Перед тем, как перейти в разел с заданиям олимпиады, <br>
+                                    выбери свой класс обучения</span>
+                                </div>
+                                <div class="body">
+                                   <form action="">
+                                       <div class="mainChoice">
+                                            <button class="class1" data-link="/suitSS.html">6-7 класс</button>
+                                            <button class="class2" data-link="/suitEN.html">8-9 класс</button>
+                                            <button class="class3" data-link="/suitTE.html">10-11 класс</button>
+                                       </div>
+                                       <button class="send_me" type="submit"> <a href="" target="_blank">Перейти к заданиям</a></button>
+                                   </form>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+            </div>
         <div class="artCard col-md-6 text-center">
             <img src="img/stages/sc.png" alt="">
             <span class="nameRoute ">Графический дизайн</span>
-            <p class="descRoute">- художственно-проектная деятельность, <br> направленная на создание визуальнойграфической <br> программы или системы.</p>
-            <button class="regRoute">Участвовать!</button>
+            <p class="descRoute">— художственно-проектная деятельность, <br> направленная на создание визуальнойграфической <br> программы или системы.</p>
+            <button class="regRoute graphButton " data-toggle="modal" data-target=".graphChoice">Участвовать!</button>
+            <div class="modal fade  choice_stage graphChoice" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg ">
+                  <div class="modal-content ">
+                        <button type="button" class="closex" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">
+                                    <img class="closeX" src="img/ico/closea.png" alt="">
+                                </span>
+                        </button>
+                        
+                    <div class="container">
+                        <div class="row">
+                            <div class="head text-center">
+                                <h2 class="title">Выбери свой класс </h2>
+                                <span class="desc">Перед тем, как перейти в разел с заданиям олимпиады, <br>
+                                выбери свой класс обучения</span>
+                            </div>
+                            <div class="body">
+                               <form action="">
+                                   <div class="mainChoice">
+                                        <button class="class1" data-link="/graphSS.html">6-7 класс</button>
+                                        <button class="class2" data-link="/graphEN.html">8-9 класс</button>
+                                        <button class="class3" data-link="/graphTE.html">10-11 класс</button>
+                                   </div>
+                                   <button class="send_me" type="submit"> <a href="" target="_blank">Перейти к заданиям</a></button>
+                               </form>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
         </div>
         </div>
         </div>
@@ -216,19 +348,101 @@
             <h1 class="title ">Вдохновись</h1>
         <span class="desc">Прежде чем выполнить олимпиадные задания, <br> можешь вдохновиться творческими работами студентов КНИТУ-КХТИ кафедры "Дизайн" :)</span>
                 </div>
-        <div class="slideBlock">
-            <div class="column in">
-                <img src="img/slide1.png" alt="">
-                <img src="img/slide2.png" alt="">
-            </div>
-            <div class="column out">
-                <img src="img/slide3.png" alt="">
-            </div>
-            <div class="column in">
-                <img src="img/slide4.png" alt="">
-                <img src="img/slide5.png" alt="">
-            </div>
+      
+         <div class="blockIn">
+             <div class="lazy slider text-center" data-sizes="100%">
+            <div class="slideBlock">  
+                <div class="column in">
+                    <img src="img/slide1.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    <img src="img/slide2.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                </div>
+                <div class="column out">
+                    <img src="img/slide3.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                </div>
+                <div class="column in">
+                    <img src="img/slide4.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                 </div>
+             </div>
+             <div class="slideBlock">  
+                    <div class="column in">
+                        <img src="img/slide1.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        <img src="img/slide2.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    </div>
+                    <div class="column out">
+                        <img src="img/slide3.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    </div>
+                    <div class="column in">
+                        <img src="img/slide4.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                     </div>
+                 </div>
+                 <div class="slideBlock">  
+                        <div class="column in">
+                            <img src="img/slide1.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                            <img src="img/slide2.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        </div>
+                        <div class="column out">
+                            <img src="img/slide3.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        </div>
+                        <div class="column in">
+                            <img src="img/slide4.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                            <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                         </div>
+                     </div>
+                     <div class="slideBlock">  
+                            <div class="column in">
+                                <img src="img/slide1.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                                <img src="img/slide2.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                            </div>
+                            <div class="column out">
+                                <img src="img/slide3.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                            </div>
+                            <div class="column in">
+                                <img src="img/slide4.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                                <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                             </div>
+                         </div>
+             <div class="slideBlock">  
+                    <div class="column in">
+                        <img src="img/slide1.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        <img src="img/slide2.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    </div>
+                    <div class="column out">
+                        <img src="img/slide3.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                    </div>
+                    <div class="column in">
+                        <img src="img/slide4.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                        <img src="img/slide5.png" alt="" data-toggle="modal" data-target=".slide_modal">
+                     </div>
+                 </div>
+         </div>
         </div>
+        
+       
+            </div>
+            <div class="modal fade slide_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModal" aria-hidden='true'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <button class="closeSlider" data-dismiss="modal" aria-lable="Close">
+                                <span aria-hidden="true">
+                                        <img class="closeX" src="img/ico/closea.png" alt="">
+                                </span>
+                        </button>
+                        <div class="container">
+                            <div class="row">
+                                <div class="body text-center">
+                                    <img src="" alt="" class="get_src">
+                                    <div class="bottom_panel">
+                                        <span class="author"></span>
+                                        <p class="desc"><a href=""><i></i></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -251,7 +465,8 @@
                     <option value="">6-7</option>
                     <option value="">7-8</option>
                     <option value="">9-10</option>
-                </select>        
+                </select> 
+                       
             </div>
             <div class="selc">
 
@@ -263,19 +478,55 @@
             </div>
             <input type="text" placeholder="E-mail:">
             <input type="text" placeholder="Телефон:">
+
             <div class="fileBlock d-flex">
                 <div class="file">
-                    <p class="title">Номинация "Рисунок</p>
-                    <button class="getFile">Загрузить фото</button>
+                    <label class="getFile"  data-toggle="modal" data-target=".file_in">Загрузить фото</label>
+                    
                 </div>
-                <div class="file">
+                <div class="modal fade file_in" tabindex='-1' role="dialog" aria-labelledby="myLargeModal" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                                <button type="button" class="closeA" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="head text-center">
+                                        <h2 class="title">Выбираете Номинацию</h2>
+                                        
+                                     </div>
+                                     <div class="file">
+                                        <p class="title">Номинация "Рисунок</p>
+                                        <label class="getFile" for="file-in-one">Загрузить фото</label>
+                                        <input type="file" class="file-content" id="file-in-one">
+                                    </div>
+                                     <div class="file">
+                                        <p class="title">Номинация "Живопись"</p>
+                                        <label class="getFile" for="file-in-se">Загрузить фото</label>
+                                        <input type="file" class="file-content" id="file-in-se">
+                                    </div>
+                                    <div class="file">
+                                        <p class="title">Номинация "Композиция"</p>
+                                        <label class="getFile" for="file-in-th">Загрузить фото</label>
+                                        <input type="file" class="file-content" id="file-in-th">
+                                    </div>
+                                </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+                <!--   <div class="file">
                     <p class="title">Номинация "Живопись"</p>
-                    <button class="getFile">Загрузить фото</button>
+                    <label class="getFile" for="file-in-se">Загрузить фото</label>
+                    <input type="file" class="file-content" id="file-in-se">
                 </div>
                 <div class="file">
                     <p class="title">Номинация "Композиция"</p>
-                    <button class="getFile">Загрузить фото</button>
-                </div>
+                    <label class="getFile" for="file-in-th">Загрузить фото</label>
+                    <input type="file" class="file-content" id="file-in-th">
+                </div>  -->
+                
             </div>
             <button class="send">Отправить работы</button>
         </form>
@@ -284,9 +535,43 @@
             </div>
         </div>    
     </section>
-
+        
     <footer>
-        <div class="contenier">
+        <div class="fix-modal">
+            <button class="openModal" data-toggle="modal" data-target=".mark_q" ><img src="img/objects/buttonBOpen.png" alt=""></button>
+
+        </div>
+                            
+            <div class="modal fade mark_q" tabindex='-1' role="dialog" aria-labelledby="myLargeModal" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                            <button type="button" class="closeA" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                        <div class="container">
+                            <div class="row">
+                                <div class="head text-center">
+                                    <h2 class="title">Задать вопрос</h2>
+                                    <p class="desc">Если у тебя есть какие-то вопросы-задавай их нам!
+                                        <br>Ответ придет тебе на электронную почту :) 
+                                    </p>
+                                 </div>
+                                 <div class="body text-center">
+                                     <form action="">
+                                         <input type="text" name="email" placeholder="E-mail:">
+                                         <textarea name="" id="" cols="30" rows="5" class="ask_desc" placeholder="Задавать вопрос:"></textarea>
+                                         <div class="objectIcon"><img src="img/objects/telegram.png" alt=""></div>
+                                         <button class="send_me" type="submit">Отправить</button>
+                                     </form>
+                                 </div>
+                            </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        
+
+        <div class="contenier"> 
             
                 <div class="textBlock text-center ">
                     <div class="top_block" id="contacts" >
@@ -304,12 +589,35 @@
         </div>
     </footer>
    
+    
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-<script src="libs/popper.js/popper.min.js"></script>
+<script src="libs/popper.js/dist/umd/popper.min.js"></script>
 <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="libs/owl.carousel/dist/owl.carousel.min.js"></script>
  <script src="js/main.js"></script>
+ <script src="/libs/slick/slick.min.js"></script>
+
+<script>
+     $(document).on('ready', function() {
+    $(".lazy").slick({
+        dots: true,
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+    </script>
+
+    <style>
+    .fourth .slick-prev:before, .slick-next:before {
+        color: black !important;
+    }
+    .slick-dots li button:before {
+        font-size: 20px;
+    }
+    </style>
+
+
 
 </body>
 </html>

@@ -5,6 +5,7 @@
 	font-family: Avante
 * .title 
 	font-family: Citrica
+	font-size: 3.5rem
 
 html
 	body
@@ -25,19 +26,44 @@ html
 						li 	
 							margin-left: 40px
 							a 	
+								letter-spacing: 2px
 								font-family: Avante
-								font-size: 1.2rem
+								font-size: 1rem
 								font-weight: 620
-								color: #F68E4E !important //цвет 
+								color: #F57E3A !important //цвет 
 								&::after
 									content: ""
 									position: relative
 									top: 2px
 									right: 2px
-
+							.dropdown-menu
+								height: auto
+								background: rgba(#FFEFD6, 0.5)
+								margin-top: 20px
+								padding: 0
+								width: auto
+								border-radius: 0
+								border: none
+								a
+									height: 100%
+									font-size: 1rem 
+									border-bottom: 1px solid orange
+									&:hover
+										background: rgba(#ECECEC, 0.2)
+									&:last-child
+										border: none
+					.headSocial	
+						margin-right: 70px
+						.navbar-nav
+							li
+								a
+									margin-left: 10px
+									img
+										width: 20px
+									
 				.logo
 						position: relative
-						left: 15%
+						left: 12.5%
 						img
 							width: 50px
 						
@@ -46,32 +72,49 @@ html
 			.centerTop
 				background: url("../img/home_img.jpg")
 				width: 100%
-				height: 757px
+				height: 900px
 				background-size: 100% 100%
 				background-repeat: no-repeat
 				.container
 					.logo_main
 						position: relative
 						bottom: 10px
-						margin-top: 110px
-						width: 170px
+						margin-top: 120px
+						width: 130px
 					h2
 						position: relative
 						color: #F68E4E
 						font-family: Citrica
 						font-weight: 600
-						font-size: 3.6rem 
+						font-size: 3.15rem
+						letter-spacing: 2px
+						span
+							font-family: Roboto
+							position: relative
+							top: 5px 
 					button 
 						background: #F68E4E !important
-						border: none
+						border: none !important
 						color: white
-						position: relativex
-						top: 20px
-						width: 220px
-						font-size: 1.4rem
+						position: relative
+						top: 15px
+						width: 210px
+						font-size: 1.2rem
 						transition: box-shadow 2s
+						letter-spacing: 3.5px
+						font-weight: 600
+						border-radius: 10px
 						&:hover
 							box-shadow: 0 0 35px #F68E4E
+						a
+							color: white
+				
+		.stageF
+			.centerTop
+				background-image: url("../img/stageF.png")
+		.stageS
+			.centerTop
+				background-image: url("../img/stageS.png")
 
 		.blockSecond
 			.container
@@ -87,9 +130,10 @@ html
 							font-weight: 400
 							padding-bottom: 20px
 							font-family: Avante
+							color: gray
 						.ic_green , .ic_red , .ic_orange
-							width: 30px
-							height: 30px
+							width: 23px
+							height: 23px
 							border-radius: 50%
 							background: #B7C076
 							position: relative
@@ -101,7 +145,8 @@ html
 						.ic_orange
 							background: #FCA55E
 						hr
-							height: 10px 
+							height: 10px
+							margin-top: 50px	 
 			.stages
 				position: relative
 				bottom: 20px
@@ -111,18 +156,136 @@ html
 						.th
 							img
 								width: 300px
-							p
-								font-family: Avante
-								font-size: 1.6rem
-								margin-top: -25px
-							&:nth-child(1)
-								color: #fa9224 
+							a
+								transition: color 1s
+								p
+									font-family: Avante
+									font-size: 1.6rem
+									margin-top: -35px
+							.in1
+								color: #BEC47B
+								&:hover
+									color: #A5A545
+							.in2
+								color: #CC3435
+								&:hover
+									color: #7B030F
+							.in3
+								color: #EE915A
+								&:hover
+									color: #B7511E
+					.partake_main
+						.modal-lg	
+							.modal-content
+								border: 7px solid #B9C072
+								border-radius: 35px
+								.closex
+									border: none
+									color: white
+									background: #B9C072 !important
+									opacity: 1
+									position: absolute
+									left: 97%
+									top: -2%
+									width: 50px
+									height: 50px
+									border-radius: 50%
+									font-weight: bold
+									outline: none
+									transition: background 1s, box-shadow 2s
+									&:hover
+										background: #A5A545 !important
+										box-shadow: 0 0 15px #A5A545
+									span
+										font-size: 3rem
+										position: absolute
+										left: 50%
+										top: 43%
+										font-weight: bold
+										transform: translate(-50%, -50%)
+										img
+											width: 25px
+
+								.container
+									border-radius: 15px
+									// /background: yellow
+									padding: 15px 20px
+									width: 100%
+									.row
+										//background: gray
+										.head
+											//background: lightgray
+											width: 100%
+											.title
+												font-weight: 340
+												color: #b9c070
+												margin-top: 15px
+												font-size: 3.5rem
+												letter-spacing: 1px
+												padding-bottom: 10px
+											.desc
+												margin-top: 20px
+												font-family: Avante
+												color: gray
+												font-size: 1.4rem
+												line-height: 0.5
+										.body
+											margin-top: 40px
+											.stages
+												padding-left: 35px
+												padding-top: 15px
+												.s_title
+													color: gray
+													margin-left: 25px
+													font-family: Citrica
+													font-size: 2rem
+													color: gray
+													.round
+														position: absolute
+														width: 15px 
+														height: 15px
+														left: 35px
+														top: 23px
+														border-radius: 50%
+														background: #B9C072
+														//color: #B9C072
+													.s
+														background: #CC3335
+													.x
+														background: #FCA55E
+													.c
+														background: #E98E79
+												.desc
+													font-family: Avante
+													font-size: 1.2rem
+													margin-left: 25px
+													color: gray
+												.desc_block
+													li
+														p
+															font-family: Avante
+															width: 90%
+															color: gray
+															font-size: 1.2rem
+												&:nth-child(4)
+													.desc
+														margin-bottom: 50px
+													.bottomHuman
+														width: 270px
+														position: absolute
+														right: 0
+														top: 20px
+															
+															
+															
+				
 			.juries
+				margin-top: 50px
 				.container
 					.row
 						.head
 							.title
-								color: #aa8089
+								color: #A1A664
 								padding: 20px
 							.descJ
 								font-family: Avante
@@ -144,7 +307,7 @@ html
 									position: relative
 									left: 50%
 									transform: translateX(-50%)
-									width: 120px
+									width: 160px
 							.body
 								text-align: center
 								.skill
@@ -162,13 +325,15 @@ html
 									color: #E78C71
 								.name , .department
 									position: relative
-									bottom: 5px
+									bottom: 2px
 									font-family: Avante
 								.department
-									font-size: 0.8rem
+									position: relative
+									top: -1px
+									font-size: 0.7rem
 						
 		.third
-			padding-top: 100px
+			padding-top: 70px
 			background: white
 			width: 100%
 			.container
@@ -181,7 +346,8 @@ html
 						.desc	
 							font-family: Avante
 							position: relative
-							bottom: 15px
+							bottom: 20px
+							line-height: 1.2
 							font-size: 1.5rem
 							color: gray
 					.artCard
@@ -216,46 +382,182 @@ html
 							height: 50px
 							color: white
 							font-size: 1.7rem
+							&:focus
+								background: #D85922
+						.choice_stage
+							.modal-dialog
+								position: relative
+								top: 40%
+								transform: translateY(-50%)
+								.modal-content
+									position: relative
+									left: 50%
+									transform: translateX(-50%)
+									width: 80%
+									border: 7px solid #F38240
+									border-radius: 25px
+									.closex
+										border: none
+										color: white
+										background: #F38240 !important
+										opacity: 1
+										position: absolute
+										left: 96.5%
+										top: -7%
+										width: 50px
+										height: 50px
+										border-radius: 50%
+										font-weight: bold
+										outline: none
+										transition: background 1s, box-shadow 2s
+										&:hover
+											background: #D85922 !important
+											box-shadow: 0 0 15px #A5A545
+										span
+											font-size: 3rem
+											position: absolute
+											left: 50%
+											top: 65%
+											font-weight: bold
+											transform: translate(-50%, -50%)
+											.closeX
+												width: 25px 
+												object-fit: contain
+											
+												
+
+										&:hover
+											background: #D85922		
+									.container
+										.row
+											display: inline-block
+											.head
+												.title
+													color: #F38240
+													margin-top: 15px
+													font-size: 2.5rem
+												.desc
+													position: relative
+													top: -4px
+													color: gray
+													font-size: 0.9
+													font-family: Avante
+											.body
+												padding-top: 10px
+												padding-bottom: 30px
+												form
+													.mainChoice
+														button
+															background: #B9C072
+															border: none
+															outline: none
+															margin: 15px
+															width: 150px
+															height: 40px
+															font-size: 1.1rem
+															font-weight: 590
+															color: white
+															border-radius: 10px
+															&:focus
+																background: #87833C
+														.class2
+															background: #F38240
+															&:focus
+																background: #D85922
+														.class3
+															background: #E98E79
+															&:focus
+																background: #E37159
+													.send_me
+														width: 190px
+														height: 40px
+														background: #CC3335
+														border: none
+														color: white
+														font-size: 1.1rem
+														border-radius: 10px
+														margin-top: 15px
+														outline: none
+														&:focus
+															background: #932D38
+														a
+															color: white
 		.fourth
 			width: 100%
 			background: white
 			padding-top: 150px
-			.layer
-				.title
-					font-size: 4rem
-					font-weight: 350
-					color: #A2A863
-					padding-top: 0px
-					padding-bottom: 30px
-				.desc 
-					font-family: Avante
-					color: gray
-					font-size: 1.6rem
-			.slideBlock
-				margin: 50px 0
-				width: 100%
-				height: 720px
-				//background: lightgray
-				display: grid
-				grip-gap: 10px
-				grid-template-columns: auto auto auto
-				padding-bottom: 150px
-				.column 
-					display: grid
-					grid-column-gap: 3px
-					img
-						margin-top: 10px
-						vertical-align: middle
-						width: 98%
-						height: 350px
-						object-fit: cover
-				.out
-					height: 98.7%
-					img
-						height: 100%
-						grid-row-start: 1
-						grid-row-end: 6
-					
+			.container
+				.row
+					.layer
+						.title
+							font-size: 4rem
+							font-weight: 350
+							color: #A2A863
+							padding-top: 0px
+							padding-bottom: 30px
+						.desc 
+							font-family: Avante
+							color: gray
+							font-size: 1.6rem
+					.blockIn
+						width: 100%
+						.slideBlock
+							margin: 50px 0
+							width: 100%
+							height: 720px
+							//background: lightgray
+							display: grid
+							grip-gap: 10px
+							grid-template-columns: auto auto auto
+							padding-bottom: 150px
+							.column 
+								display: grid
+								grid-column-gap: 2px
+								img
+									margin-top: 10px
+									vertical-align: middle
+									width: 98%
+									height: 350px
+									object-fit: cover
+							.out
+								height: 98.7%
+								img
+									height: 100%
+									grid-row-start: 1
+									grid-row-end: 6
+				.slide_modal
+					.modal-dialog
+						.modal-content
+							background: transparent
+							border-radius: 20px
+							//border: 5px solid #9E9E9E
+							border: none
+							.closeSlider
+								border: none
+								color: white
+								background: transparent
+								opacity: 0.7
+								position: absolute
+								left: 165%
+								top: -10px
+								transition: opacity 2s
+								&:hover
+									opacity: 1
+
+								span
+									img
+										width: 30px
+								
+								
+
+							.body
+								margin-top: 20px
+								width: 100%
+								display: inline-block
+								img
+									width: 100%
+
+														
 
 				
 		.fifth
@@ -314,13 +616,17 @@ html
 
 									z-index: 999
 							.fileBlock
-								justify-content: space-around
+								position: relative
+								top: 40px
+								left: 20%
 								padding: 20px 0 20px 0 
 								.file
 									width: 350px
 									.title
 										font-size: 1.4rem
 										color: gray
+									input
+										display: none
 									.getFile
 										width: 200px
 										font-size: 1.4rem
@@ -329,8 +635,40 @@ html
 										color: white
 										border-radius: 10px
 										padding: 3px
+								.file_in
+									.modal-dialog
+										display: inline-block
+										.modal-content	
+											width: 350px !important
+											border: 4px solid #F2813D
+											padding: 15px
+											border-radius: 20px
+											.closeA
+												width: 40px
+												height: 40px
+												position: absolute
+												right: -20px
+												top: -15px
+												background: #F2813D
+												border: none
+												border-radius: 50%
+												span
+													color: white
+													position: relative
+													
+													top: -7px
+													font-size: 2.3rem
+													font-weight: bold
+											.container
+												.row
+
+											.head
+											.file
 							.send
-								margin-top: 50px
+								
+								position: relative
+								top: -40px
+								margin-left: 40%
 								background: #CA3533
 								color: white
 								width: 320px
@@ -342,6 +680,124 @@ html
 			width: 100%
 			height: auto
 			background-color: #FFDFA2
+			.fix-modal
+				float: right
+				left: 93%
+				z-index: 999
+				position: fixed
+				top: 85%
+				img
+					position: relative
+					right: 7px
+					top: -3px
+				.openModal
+					background: transparent
+					border: 2px solid #CC3335
+					width: 45px
+					height: 45px
+					border-radius: 50%
+					color: white
+					outline: none	
+					box-shadow: 0 0 5px #CC3335
+					transition: box-shadow 3s
+					&:hover
+						box-shadow: 0 0 25px #CC3335
+						border-color: #932D38
+					
+									
+					span
+						width: 80%
+						height: 80%
+						position: absolute
+						background: #CC3335
+						border-radius: 50%
+						font-size: 2rem
+						font-weight: bold
+						top: 5px
+						left: 5px
+						transition: box-shadow 2s, background-color 2s
+			.mark_q
+				.modal-dialog
+					position: absolute
+					right: 150px
+					bottom: 50px
+					.modal-content
+						width: 350px
+						height: 470px
+						border-radius: 20px
+						border: 4px solid #CC3335
+						.closeA
+							outline: none
+							position: absolute
+							bottom: -10px
+							right: -20px
+							width: 45px
+							height: 45px
+							border-radius: 50%
+							background: #CC3335
+							border: none
+							transition: background 1s, box-shadow 2s
+							span
+								color: white
+								font-size: 2.5rem
+								position: relative
+								bottom: 8px
+							&:hover 
+								background: #932C37 
+								box-shadow: 0 0 15px #932C37
+
+						.container
+							.row
+								.head
+									width: 100%
+									.title
+										margin-top: 20px
+										font-size: 2.5rem
+										color: #CC3335
+
+									.desc
+										padding-left: 3.5px
+										font-size: 0.8rem
+										font-family: Avante
+										color: gray
+
+								.body
+									padding-top: 10px
+									form
+										//background: lightgray
+										input
+											height: 35px
+										input, textarea
+											outline: none
+											width: 80%
+											background: lightgray
+											border-radius: 20px
+											border: none
+											padding: 0 15px
+										textarea
+											margin-top: 20px
+											padding-top: 5px
+											resize: none
+										.objectIcon
+											position: absolute
+											bottom: 29px
+											left: 45px
+											img
+												width: 100px
+										.send_me
+											position: relative
+											left: 20%
+											top: 50px
+											background: #F38240
+											border: none
+											outline: none
+											width: 120px
+											height: 35px
+											border-radius: 7px
+											font-size: 1.15rem
+											color: white
+											&:focus
+												background: #D85922
 			.contenier
 				.textBlock
 					.top_block
@@ -358,10 +814,10 @@ html
 					justify-content: center
 					padding: 10px 0
 					.icon
-						width: 70px
-						height: 70px
-						background-color: white
+						color: gray
 						border-radius: 10px
-						margin-left: 20px
+						margin-left: 20px		
+						img
+							padding-left: 2px
 						
 

@@ -4,7 +4,8 @@
   font-family: Avante; }
 
 * .title {
-  font-family: Citrica; }
+  font-family: Citrica;
+  font-size: 3.5rem; }
 
 html body {
   width: 100%;
@@ -20,48 +21,85 @@ html body {
       html body header nav .nav_tab .center-x li {
         margin-left: 40px; }
         html body header nav .nav_tab .center-x li a {
+          letter-spacing: 2px;
           font-family: Avante;
-          font-size: 1.2rem;
+          font-size: 1rem;
           font-weight: 620;
-          color: #F68E4E !important; }
+          color: #F57E3A !important; }
           html body header nav .nav_tab .center-x li a::after {
             content: "";
             position: relative;
             top: 2px;
             right: 2px; }
+        html body header nav .nav_tab .center-x li .dropdown-menu {
+          height: auto;
+          background: rgba(255, 239, 214, 0.5);
+          margin-top: 20px;
+          padding: 0;
+          width: auto;
+          border-radius: 0;
+          border: none; }
+          html body header nav .nav_tab .center-x li .dropdown-menu a {
+            height: 100%;
+            font-size: 1rem;
+            border-bottom: 1px solid orange; }
+            html body header nav .nav_tab .center-x li .dropdown-menu a:hover {
+              background: rgba(236, 236, 236, 0.2); }
+            html body header nav .nav_tab .center-x li .dropdown-menu a:last-child {
+              border: none; }
+    html body header nav .nav_tab .headSocial {
+      margin-right: 70px; }
+      html body header nav .nav_tab .headSocial .navbar-nav li a {
+        margin-left: 10px; }
+        html body header nav .nav_tab .headSocial .navbar-nav li a img {
+          width: 20px; }
     html body header nav .logo {
       position: relative;
-      left: 15%; }
+      left: 12.5%; }
       html body header nav .logo img {
         width: 50px; }
   html body .main .centerTop {
     background: url("../img/home_img.jpg");
     width: 100%;
-    height: 757px;
+    height: 900px;
     background-size: 100% 100%;
     background-repeat: no-repeat; }
     html body .main .centerTop .container .logo_main {
       position: relative;
       bottom: 10px;
-      margin-top: 110px;
-      width: 170px; }
+      margin-top: 120px;
+      width: 130px; }
     html body .main .centerTop .container h2 {
       position: relative;
       color: #F68E4E;
       font-family: Citrica;
       font-weight: 600;
-      font-size: 3.6rem; }
+      font-size: 3.15rem;
+      letter-spacing: 2px; }
+      html body .main .centerTop .container h2 span {
+        font-family: Roboto;
+        position: relative;
+        top: 5px; }
     html body .main .centerTop .container button {
       background: #F68E4E !important;
-      border: none;
+      border: none !important;
       color: white;
-      position: relativex;
-      top: 20px;
-      width: 220px;
-      font-size: 1.4rem;
-      transition: box-shadow 2s; }
+      position: relative;
+      top: 15px;
+      width: 210px;
+      font-size: 1.2rem;
+      transition: box-shadow 2s;
+      letter-spacing: 3.5px;
+      font-weight: 600;
+      border-radius: 10px; }
       html body .main .centerTop .container button:hover {
         box-shadow: 0 0 35px #F68E4E; }
+      html body .main .centerTop .container button a {
+        color: white; }
+  html body .stageF .centerTop {
+    background-image: url("../img/stageF.png"); }
+  html body .stageS .centerTop {
+    background-image: url("../img/stageS.png"); }
   html body .blockSecond {
     /* tut slider*/ }
     html body .blockSecond .container .row .centerBlock .title {
@@ -73,10 +111,11 @@ html body {
       font-size: 1.3rem;
       font-weight: 400;
       padding-bottom: 20px;
-      font-family: Avante; }
+      font-family: Avante;
+      color: gray; }
     html body .blockSecond .container .row .centerBlock .ic_green, html body .blockSecond .container .row .centerBlock .ic_red, html body .blockSecond .container .row .centerBlock .ic_orange {
-      width: 30px;
-      height: 30px;
+      width: 23px;
+      height: 23px;
       border-radius: 50%;
       background: #B7C076;
       position: relative;
@@ -88,7 +127,8 @@ html body {
     html body .blockSecond .container .row .centerBlock .ic_orange {
       background: #FCA55E; }
     html body .blockSecond .container .row .centerBlock hr {
-      height: 10px; }
+      height: 10px;
+      margin-top: 50px; }
     html body .blockSecond .stages {
       position: relative;
       bottom: 20px; }
@@ -96,21 +136,125 @@ html body {
         background: white; }
         html body .blockSecond .stages .container .row .th img {
           width: 300px; }
-        html body .blockSecond .stages .container .row .th p {
-          font-family: Avante;
-          font-size: 1.6rem;
-          margin-top: -25px; }
-        html body .blockSecond .stages .container .row .th:nth-child(1) {
-          color: #fa9224; }
-    html body .blockSecond .juries .container .row .head .title {
-      color: #aa8089;
-      padding: 20px; }
-    html body .blockSecond .juries .container .row .head .descJ {
-      font-family: Avante;
-      font-size: 1.5rem;
-      font-weight: 340;
-      color: gray;
-      line-height: 1.2; }
+        html body .blockSecond .stages .container .row .th a {
+          transition: color 1s; }
+          html body .blockSecond .stages .container .row .th a p {
+            font-family: Avante;
+            font-size: 1.6rem;
+            margin-top: -35px; }
+        html body .blockSecond .stages .container .row .th .in1 {
+          color: #BEC47B; }
+          html body .blockSecond .stages .container .row .th .in1:hover {
+            color: #A5A545; }
+        html body .blockSecond .stages .container .row .th .in2 {
+          color: #CC3435; }
+          html body .blockSecond .stages .container .row .th .in2:hover {
+            color: #7B030F; }
+        html body .blockSecond .stages .container .row .th .in3 {
+          color: #EE915A; }
+          html body .blockSecond .stages .container .row .th .in3:hover {
+            color: #B7511E; }
+      html body .blockSecond .stages .container .partake_main .modal-lg .modal-content {
+        border: 7px solid #B9C072;
+        border-radius: 35px; }
+        html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .closex {
+          border: none;
+          color: white;
+          background: #B9C072 !important;
+          opacity: 1;
+          position: absolute;
+          left: 97%;
+          top: -2%;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          font-weight: bold;
+          outline: none;
+          transition: background 1s, box-shadow 2s; }
+          html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .closex:hover {
+            background: #A5A545 !important;
+            box-shadow: 0 0 15px #A5A545; }
+          html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .closex span {
+            font-size: 3rem;
+            position: absolute;
+            left: 50%;
+            top: 43%;
+            font-weight: bold;
+            transform: translate(-50%, -50%); }
+            html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .closex span img {
+              width: 25px; }
+        html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container {
+          border-radius: 15px;
+          padding: 15px 20px;
+          width: 100%; }
+          html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .head {
+            width: 100%; }
+            html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .head .title {
+              font-weight: 340;
+              color: #b9c070;
+              margin-top: 15px;
+              font-size: 3.5rem;
+              letter-spacing: 1px;
+              padding-bottom: 10px; }
+            html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .head .desc {
+              margin-top: 20px;
+              font-family: Avante;
+              color: gray;
+              font-size: 1.4rem;
+              line-height: 0.5; }
+          html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body {
+            margin-top: 40px; }
+            html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages {
+              padding-left: 35px;
+              padding-top: 15px; }
+              html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .s_title {
+                color: gray;
+                margin-left: 25px;
+                font-family: Citrica;
+                font-size: 2rem;
+                color: gray; }
+                html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .s_title .round {
+                  position: absolute;
+                  width: 15px;
+                  height: 15px;
+                  left: 35px;
+                  top: 23px;
+                  border-radius: 50%;
+                  background: #B9C072; }
+                html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .s_title .s {
+                  background: #CC3335; }
+                html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .s_title .x {
+                  background: #FCA55E; }
+                html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .s_title .c {
+                  background: #E98E79; }
+              html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .desc {
+                font-family: Avante;
+                font-size: 1.2rem;
+                margin-left: 25px;
+                color: gray; }
+              html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages .desc_block li p {
+                font-family: Avante;
+                width: 90%;
+                color: gray;
+                font-size: 1.2rem; }
+              html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages:nth-child(4) .desc {
+                margin-bottom: 50px; }
+              html body .blockSecond .stages .container .partake_main .modal-lg .modal-content .container .row .body .stages:nth-child(4) .bottomHuman {
+                width: 270px;
+                position: absolute;
+                right: 0;
+                top: 20px; }
+    html body .blockSecond .juries {
+      margin-top: 50px; }
+      html body .blockSecond .juries .container .row .head .title {
+        color: #A1A664;
+        padding: 20px; }
+      html body .blockSecond .juries .container .row .head .descJ {
+        font-family: Avante;
+        font-size: 1.5rem;
+        font-weight: 340;
+        color: gray;
+        line-height: 1.2; }
   html body .sliderJuries {
     width: 100%;
     padding: 70px 0;
@@ -119,7 +263,7 @@ html body {
       position: relative;
       left: 50%;
       transform: translateX(-50%);
-      width: 120px; }
+      width: 160px; }
     html body .sliderJuries .container .row .owl-carousel .col .body {
       text-align: center; }
       html body .sliderJuries .container .row .owl-carousel .col .body .skill {
@@ -137,12 +281,14 @@ html body {
         color: #E78C71; }
       html body .sliderJuries .container .row .owl-carousel .col .body .name, html body .sliderJuries .container .row .owl-carousel .col .body .department {
         position: relative;
-        bottom: 5px;
+        bottom: 2px;
         font-family: Avante; }
       html body .sliderJuries .container .row .owl-carousel .col .body .department {
-        font-size: 0.8rem; }
+        position: relative;
+        top: -1px;
+        font-size: 0.7rem; }
   html body .third {
-    padding-top: 100px;
+    padding-top: 70px;
     background: white;
     width: 100%; }
     html body .third .container .row .top_layer .title {
@@ -152,7 +298,8 @@ html body {
     html body .third .container .row .top_layer .desc {
       font-family: Avante;
       position: relative;
-      bottom: 15px;
+      bottom: 20px;
+      line-height: 1.2;
       font-size: 1.5rem;
       color: gray; }
     html body .third .container .row .artCard {
@@ -187,43 +334,160 @@ html body {
         height: 50px;
         color: white;
         font-size: 1.7rem; }
+        html body .third .container .row .artCard .regRoute:focus {
+          background: #D85922; }
+      html body .third .container .row .artCard .choice_stage .modal-dialog {
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%); }
+        html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+          border: 7px solid #F38240;
+          border-radius: 25px; }
+          html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .closex {
+            border: none;
+            color: white;
+            background: #F38240 !important;
+            opacity: 1;
+            position: absolute;
+            left: 96.5%;
+            top: -7%;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-weight: bold;
+            outline: none;
+            transition: background 1s, box-shadow 2s; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .closex:hover {
+              background: #D85922 !important;
+              box-shadow: 0 0 15px #A5A545; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .closex span {
+              font-size: 3rem;
+              position: absolute;
+              left: 50%;
+              top: 65%;
+              font-weight: bold;
+              transform: translate(-50%, -50%); }
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .closex span .closeX {
+                width: 25px;
+                object-fit: contain; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .closex:hover {
+              background: #D85922; }
+          html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row {
+            display: inline-block; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .head .title {
+              color: #F38240;
+              margin-top: 15px;
+              font-size: 2.5rem; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .head .desc {
+              position: relative;
+              top: -4px;
+              color: gray;
+              font-size: 0.9;
+              font-family: Avante; }
+            html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body {
+              padding-top: 10px;
+              padding-bottom: 30px; }
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice button {
+                background: #B9C072;
+                border: none;
+                outline: none;
+                margin: 15px;
+                width: 150px;
+                height: 40px;
+                font-size: 1.1rem;
+                font-weight: 590;
+                color: white;
+                border-radius: 10px; }
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice button:focus {
+                  background: #87833C; }
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class2 {
+                background: #F38240; }
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class2:focus {
+                  background: #D85922; }
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class3 {
+                background: #E98E79; }
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .mainChoice .class3:focus {
+                  background: #E37159; }
+              html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me {
+                width: 190px;
+                height: 40px;
+                background: #CC3335;
+                border: none;
+                color: white;
+                font-size: 1.1rem;
+                border-radius: 10px;
+                margin-top: 15px;
+                outline: none; }
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me:focus {
+                  background: #932D38; }
+                html body .third .container .row .artCard .choice_stage .modal-dialog .modal-content .container .row .body form .send_me a {
+                  color: white; }
   html body .fourth {
     width: 100%;
     background: white;
     padding-top: 150px; }
-    html body .fourth .layer .title {
+    html body .fourth .container .row .layer .title {
       font-size: 4rem;
       font-weight: 350;
       color: #A2A863;
       padding-top: 0px;
       padding-bottom: 30px; }
-    html body .fourth .layer .desc {
+    html body .fourth .container .row .layer .desc {
       font-family: Avante;
       color: gray;
       font-size: 1.6rem; }
-    html body .fourth .slideBlock {
-      margin: 50px 0;
-      width: 100%;
-      height: 720px;
-      display: grid;
-      grip-gap: 10px;
-      grid-template-columns: auto auto auto;
-      padding-bottom: 150px; }
-      html body .fourth .slideBlock .column {
+    html body .fourth .container .row .blockIn {
+      width: 100%; }
+      html body .fourth .container .row .blockIn .slideBlock {
+        margin: 50px 0;
+        width: 100%;
+        height: 720px;
         display: grid;
-        grid-column-gap: 3px; }
-        html body .fourth .slideBlock .column img {
-          margin-top: 10px;
-          vertical-align: middle;
-          width: 98%;
-          height: 350px;
-          object-fit: cover; }
-      html body .fourth .slideBlock .out {
-        height: 98.7%; }
-        html body .fourth .slideBlock .out img {
-          height: 100%;
-          grid-row-start: 1;
-          grid-row-end: 6; }
+        grip-gap: 10px;
+        grid-template-columns: auto auto auto;
+        padding-bottom: 150px; }
+        html body .fourth .container .row .blockIn .slideBlock .column {
+          display: grid;
+          grid-column-gap: 2px; }
+          html body .fourth .container .row .blockIn .slideBlock .column img {
+            margin-top: 10px;
+            vertical-align: middle;
+            width: 98%;
+            height: 350px;
+            object-fit: cover; }
+        html body .fourth .container .row .blockIn .slideBlock .out {
+          height: 98.7%; }
+          html body .fourth .container .row .blockIn .slideBlock .out img {
+            height: 100%;
+            grid-row-start: 1;
+            grid-row-end: 6; }
+    html body .fourth .container .slide_modal .modal-dialog .modal-content {
+      background: transparent;
+      border-radius: 20px;
+      border: none; }
+      html body .fourth .container .slide_modal .modal-dialog .modal-content .closeSlider {
+        border: none;
+        color: white;
+        background: transparent;
+        opacity: 0.7;
+        position: absolute;
+        left: 165%;
+        top: -10px;
+        transition: opacity 2s; }
+        html body .fourth .container .slide_modal .modal-dialog .modal-content .closeSlider:hover {
+          opacity: 1; }
+        html body .fourth .container .slide_modal .modal-dialog .modal-content .closeSlider span img {
+          width: 30px; }
+      html body .fourth .container .slide_modal .modal-dialog .modal-content .body {
+        margin-top: 20px;
+        width: 100%;
+        display: inline-block; }
+        html body .fourth .container .slide_modal .modal-dialog .modal-content .body img {
+          width: 100%; }
   html body .fifth {
     width: 100%;
     height: auto;
@@ -275,13 +539,17 @@ html body {
           position-events: none;
           z-index: 999; }
         html body .fifth .container .row .form_content form .fileBlock {
-          justify-content: space-around;
+          position: relative;
+          top: 40px;
+          left: 20%;
           padding: 20px 0 20px 0; }
           html body .fifth .container .row .form_content form .fileBlock .file {
             width: 350px; }
             html body .fifth .container .row .form_content form .fileBlock .file .title {
               font-size: 1.4rem;
               color: gray; }
+            html body .fifth .container .row .form_content form .fileBlock .file input {
+              display: none; }
             html body .fifth .container .row .form_content form .fileBlock .file .getFile {
               width: 200px;
               font-size: 1.4rem;
@@ -290,8 +558,32 @@ html body {
               color: white;
               border-radius: 10px;
               padding: 3px; }
+          html body .fifth .container .row .form_content form .fileBlock .file_in .modal-dialog {
+            display: inline-block; }
+            html body .fifth .container .row .form_content form .fileBlock .file_in .modal-dialog .modal-content {
+              width: 350px !important;
+              border: 4px solid #F2813D;
+              padding: 15px;
+              border-radius: 20px; }
+              html body .fifth .container .row .form_content form .fileBlock .file_in .modal-dialog .modal-content .closeA {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                right: -20px;
+                top: -15px;
+                background: #F2813D;
+                border: none;
+                border-radius: 50%; }
+                html body .fifth .container .row .form_content form .fileBlock .file_in .modal-dialog .modal-content .closeA span {
+                  color: white;
+                  position: relative;
+                  top: -7px;
+                  font-size: 2.3rem;
+                  font-weight: bold; }
         html body .fifth .container .row .form_content form .send {
-          margin-top: 50px;
+          position: relative;
+          top: -40px;
+          margin-left: 40%;
           background: #CA3533;
           color: white;
           width: 320px;
@@ -303,6 +595,114 @@ html body {
     width: 100%;
     height: auto;
     background-color: #FFDFA2; }
+    html body footer .fix-modal {
+      float: right;
+      left: 93%;
+      z-index: 999;
+      position: fixed;
+      top: 85%; }
+      html body footer .fix-modal img {
+        position: relative;
+        right: 7px;
+        top: -3px; }
+      html body footer .fix-modal .openModal {
+        background: transparent;
+        border: 2px solid #CC3335;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        color: white;
+        outline: none;
+        box-shadow: 0 0 5px #CC3335;
+        transition: box-shadow 3s; }
+        html body footer .fix-modal .openModal:hover {
+          box-shadow: 0 0 25px #CC3335;
+          border-color: #932D38; }
+        html body footer .fix-modal .openModal span {
+          width: 80%;
+          height: 80%;
+          position: absolute;
+          background: #CC3335;
+          border-radius: 50%;
+          font-size: 2rem;
+          font-weight: bold;
+          top: 5px;
+          left: 5px;
+          transition: box-shadow 2s, background-color 2s; }
+    html body footer .mark_q .modal-dialog {
+      position: absolute;
+      right: 150px;
+      bottom: 50px; }
+      html body footer .mark_q .modal-dialog .modal-content {
+        width: 350px;
+        height: 470px;
+        border-radius: 20px;
+        border: 4px solid #CC3335; }
+        html body footer .mark_q .modal-dialog .modal-content .closeA {
+          outline: none;
+          position: absolute;
+          bottom: -10px;
+          right: -20px;
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          background: #CC3335;
+          border: none;
+          transition: background 1s, box-shadow 2s; }
+          html body footer .mark_q .modal-dialog .modal-content .closeA span {
+            color: white;
+            font-size: 2.5rem;
+            position: relative;
+            bottom: 8px; }
+          html body footer .mark_q .modal-dialog .modal-content .closeA:hover {
+            background: #932C37;
+            box-shadow: 0 0 15px #932C37; }
+        html body footer .mark_q .modal-dialog .modal-content .container .row .head {
+          width: 100%; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .head .title {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: #CC3335; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .head .desc {
+            padding-left: 3.5px;
+            font-size: 0.8rem;
+            font-family: Avante;
+            color: gray; }
+        html body footer .mark_q .modal-dialog .modal-content .container .row .body {
+          padding-top: 10px; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .body form input {
+            height: 35px; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .body form input, html body footer .mark_q .modal-dialog .modal-content .container .row .body form textarea {
+            outline: none;
+            width: 80%;
+            background: lightgray;
+            border-radius: 20px;
+            border: none;
+            padding: 0 15px; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .body form textarea {
+            margin-top: 20px;
+            padding-top: 5px;
+            resize: none; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .body form .objectIcon {
+            position: absolute;
+            bottom: 29px;
+            left: 45px; }
+            html body footer .mark_q .modal-dialog .modal-content .container .row .body form .objectIcon img {
+              width: 100px; }
+          html body footer .mark_q .modal-dialog .modal-content .container .row .body form .send_me {
+            position: relative;
+            left: 20%;
+            top: 50px;
+            background: #F38240;
+            border: none;
+            outline: none;
+            width: 120px;
+            height: 35px;
+            border-radius: 7px;
+            font-size: 1.15rem;
+            color: white; }
+            html body footer .mark_q .modal-dialog .modal-content .container .row .body form .send_me:focus {
+              background: #D85922; }
     html body footer .contenier .textBlock .top_block .title {
       color: gray;
       font-weight: 350;
@@ -316,8 +716,8 @@ html body {
       justify-content: center;
       padding: 10px 0; }
       html body footer .contenier .iconBlock .icon {
-        width: 70px;
-        height: 70px;
-        background-color: white;
+        color: gray;
         border-radius: 10px;
         margin-left: 20px; }
+        html body footer .contenier .iconBlock .icon img {
+          padding-left: 2px; }
