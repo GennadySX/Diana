@@ -96,9 +96,9 @@ html body {
         box-shadow: 0 0 35px #F68E4E; }
       html body .main .centerTop .container button a {
         color: white; }
-  html body .stageF .centerTop {
+  html body .graphSS .centerTop {
     background-image: url("../img/stageF.png"); }
-  html body .stageS .centerTop {
+  html body .suitSS .centerTop {
     background-image: url("../img/stageS.png"); }
   html body .blockSecond {
     /* tut slider*/ }

@@ -32,15 +32,18 @@ html body .graphDesign-seven .container .row .blockNomination {
       padding: 0 10px;
       flex: 0 0 40%; }
       html body .graphDesign-seven .container .row .blockNomination .head .top .title {
-        font-size: 2.3rem;
+        font-size: 1.7rem;
         color: gray; }
       html body .graphDesign-seven .container .row .blockNomination .head .top .desc {
-        flex: 0 0 20%;
-        font-family: Avante; }
+        flex: 0 0 50%;
+        font-family: Avante;
+        font-size: 1.2rem; }
     html body .graphDesign-seven .container .row .blockNomination .head img {
       position: relative;
       left: 80px;
-      width: 50%; }
+      width: 40%;
+      height: 230px;
+      padding-bottom: 20px; }
   html body .graphDesign-seven .container .row .blockNomination .show-btn {
     position: relative;
     left: 50%;
@@ -59,16 +62,26 @@ html body .graphDesign-seven .container .row .blockNomination {
     html body .graphDesign-seven .container .row .blockNomination .show-btn:hover {
       background: #F2812F; }
   html body .graphDesign-seven .container .row .blockNomination .body {
+    width: 100%;
     padding: 15px;
-    text-align: center; }
+    padding-top: 0;
+    text-align: center;
+    opacity: 1 !important; }
     html body .graphDesign-seven .container .row .blockNomination .body hr {
-      width: 60%;
+      width: 75%;
       border: 1px solid gray; }
     html body .graphDesign-seven .container .row .blockNomination .body .title {
-      font-family: Avante; }
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-family: Avante;
+      color: gray;
+      padding-top: 10px;
+      margin-bottom: 20px; }
     html body .graphDesign-seven .container .row .blockNomination .body .desc {
+      font-family: Avante;
       font-size: 1.2rem;
-      font-weight: 380; }
+      font-weight: 380;
+      color: gray; }
     html body .graphDesign-seven .container .row .blockNomination .body .gallery {
       padding-top: 15px; }
       html body .graphDesign-seven .container .row .blockNomination .body .gallery img {
@@ -85,8 +98,46 @@ html body .graphDesign-seven .container .row .blockNomination {
       font-size: 1.3rem;
       width: 200px;
       height: 40px;
-      outline: none;
       border-radius: 5px;
       transition: background 2s; }
       html body .graphDesign-seven .container .row .blockNomination .body .closeCollapse:hover {
         background: #F2812F; }
+
+html body .graphDesign-seven .container .row .in1 .head img {
+  right: 0;
+  width: 39%;
+  height: 230px;
+  left: 60%; }
+
+html body .graphDesign-seven .container .row .in1 .head .top {
+  float: left;
+  position: absolute;
+  width: 55%;
+  left: 0;
+  margin-left: 35px; }
+
+html body .graphDesign-seven .container .row .in2 .head img {
+  position: relative;
+  margin-left: -70px;
+  width: 39%;
+  height: 230px; }
+
+html body .graphDesign-seven .container .row .in2 .top {
+  float: right;
+  position: absolute;
+  width: 55%;
+  right: 0;
+  margin-right: 35px; }
+
+html body .graphDesign-seven .container .row .in3 .head img {
+  right: 0;
+  width: 39%;
+  height: 230px;
+  left: 60%; }
+
+html body .graphDesign-seven .container .row .in3 .head .top {
+  float: left;
+  position: absolute;
+  width: 55%;
+  left: 0;
+  margin-left: 35px; }
